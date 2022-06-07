@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+.div-detail{
+    position:absolute; 
+    height: 120%; 
+    width:100% ;
+    top:20%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    background-image: url('../../Imagenes-Proyecto/fondoDetail.jpg');
+    background-repeat: repeat;
+    background-size: 30% 30%;
+
+}
+.glass-container{
+    position:absolute;
+    top: 10%;
+    width: 70%;
+    left: 15%;
+    height: 85%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0,145,255, 0.135);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+
+}
+
+.img-detail{
+    position: absolute;
+ height: 35%;
+ width: 70%;
+ border-radius: 10px;
+top:20%;
+left: 15%;
+
+}
+
+div.glass-container> h4{
+    position: relative;
+    left: 25%;
+    height: 6%;
+    width: 50%;
+    font-family:'Macondo', cursive ;
+    font-size: 100%;
+    flex-basis: 6%;
+    top:10%;
+
+}
+
+div.glass-container> div{
+    position: relative;
+    left: 25%;
+    height: 4%;
+    width: 50%;
+    font-family:'Macondo', cursive ;
+    font-size: 100%;
+    flex-basis: 4%;
+    top:1%;
+}
+
+
+div.glass-container> h5{
+    position: relative;
+    left: 25%;
+    height: 4%;
+    width: 50%;
+    font-family:'Macondo', cursive ;
+    font-size: 100%;
+    flex-basis: 4%;
+    top:1%;
+}
+
+div.glass-container> h4.temps-Detail{
+    position: absolute;
+    top:80%;
+
+}
+
+div.glass-container> div.div-row-Detail{
+    
+position: relative;
+display: flex;
+flex-direction: row;
+top: 40%;
+
+}
+div.div-row-Detail>h4{
+position: relative;
+
+right:10%;
+}
+div.div-row-Detail>div{
+    position: relative;
+    top:100%;
+    right:27.5%;
+    }

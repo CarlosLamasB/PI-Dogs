@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+.div{
+  top:20%;
+  height: 80%;
+  width: 100%;
+  background-image: url('../../Imagenes-Proyecto/coraje.jpg');
+    background-repeat: repeat;
+    background-size: 30% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+
+}
+
+.div1{color:white; position: relative;}
+.div2{color:white; position: relative;}
+
+.form{
+  height: 80%;
+  width: 50%;
+left: 25%;
+  /*background-image: linear-gradient(45deg, #b55700 25%, #F6F0CF 25%, #F6F0CF 50%, #b55700 50%, #b55700 75%, #F6F0CF 75%, #F6F0CF 100%);
+background-size: 100% 100%;*/
+background: linear-gradient(90deg, rgba(135,126,124,1) 33%, rgba(207,177,143,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+border-radius: 20px;
+
+
+
+}
+.button-form{
+  height: 10%;
+  width: 60%;
+  flex-basis: 20%;
+  position:absolute;
+  left:20%;
+  bottom: 5%;
+  border-radius: 20px;
+  color:rgba(75,46,35,1);
+font-family:'Macondo', cursive ;
+font-size: 100%;
+}
+.div-form{
+height: 15%;
+display: flex;
+position: relative;
+flex-direction: column;
+
+
+}
+
+p.danger {
+    color: #da000b;
+    font-size: 10px;
+  }
+
+  input.danger {
+    position:relative;
+    border: 2px solid #97060e;
+    top: 10%;
+    height: 50%;
+width: 80%;
+left:10%;
+  }
+
+  .label-form{
+    color: white;
+font-family:'Macondo', cursive ;
+font-size: 20px;
+display: flex;
+position: relative;
+top: 10%;
+  }
+  .input-form{
+    background-color: transparent;
+    position: relative;
+    top: 10%;
+    left:10%;
+height: 50%;
+width: 80%;
+border-color: white;
+  }
